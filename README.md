@@ -1,4 +1,3 @@
 # Projeto base para aplicações mashups usando Bootstrap 4
 
-
-Aplicações mashups no Qlik Sense - dev-hub
+Usando o Bootstrap no Qlik Sense Mashup
