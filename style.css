@@ -1,0 +1,242 @@
+.tabcontent {
+    display: none;
+  }
+  
+  /* style.css */
+  .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 45px 45px 0;
+  }
+  
+  .qvplaceholder, .qvobject {
+      flex: 1 1 auto;
+      height: 300px;
+      min-width: 100px;
+      margin: 10px 0 0 10px;
+  }
+  
+  #popup {
+      background-color: #c3534b;
+      color: #FFFFFF;
+      position: fixed;
+      max-width: 250px;
+      padding: 10px;
+      margin: 10px;
+      bottom: 0;
+      right: 0;
+      display: none;
+      border-radius: 5px;
+      z-index: 6;
+      font-family: sans-serif;
+  }
+  
+  .close {
+      cursor: pointer;
+      background: 0 0;
+      border: 0;
+      float: right;
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 1;
+      color: #000;
+      text-shadow: 0 1px 0 #fff;
+      opacity: .2;
+      position: absolute;
+      right: 9px;
+      top: 7px;
+  }
+  
+  .close:hover {
+      opacity: .5;
+  }
+  
+  #popupText {
+      margin-right: 23px;
+  }
+  
+  #CurrentSelections{
+      position: relative; 
+      top: 0; 
+      left: 0; 
+      width: 100%; 
+      height: 35px;
+  }
+  
+  
+  /* Header */
+  
+  .header {
+      background: url(./background-topo.png) no-repeat;
+      background-size: 100% 100%;
+      height: 100%;
+      width: 100%;
+      position: relative;
+      display: table;
+  }
+  
+  header a {
+      display: table-cell;
+      vertical-align: middle;
+      color: #fff;
+      
+  }
+  
+  header a:hover {
+      color: #fff;
+      text-decoration: none;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+      color: rgb(255, 255, 255);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+      color: #c0c0c0;
+  }
+  
+  .nav-link{
+      margin: 0 15px;
+  }
+
+  .nav-tabs .nav-link.active{
+    background-color: #545352;
+  }
+  
+  img{
+      width: 30px;
+      height: 30px;
+  }
+  
+  nav{
+      margin-top: 30px;
+  }
+  
+  .icon {
+      color: white;
+      font-size: 40px;
+      height: 36px;
+      width: 35px;
+  }
+  
+  .menu {
+      min-width: 59px;
+      height: 44px;
+      margin-top: 50px;
+      margin-left: -54px;
+      outline: none;
+  }
+  
+  .sair {
+      width: 10px;
+      color: white;
+  }
+  
+  .sair div {
+      margin-top: 63px;
+  }
+  
+  .home {
+      color: white;
+      font-size: 13pt;
+  }
+  
+  .relatorio {
+      color: white;
+      font-size: 13pt;
+      margin-top: 95px;
+  }
+  
+  .menuAba{
+      width: 115px;
+  }
+  
+  .menuAba button {
+      width: 100%;
+  }
+  
+  .texto-clossario{
+      text-align: 'justify';
+  }
+  
+  b{
+      font-weight: 500;
+  }
+  
+  .titulo-popup{
+      text-align: center;
+      font-weight: 700;
+      font-size: 16pt;
+      margin-bottom: 28px;
+  }
+  
+  .filtros{
+      height: 40px;
+      width: 100%;
+  }
+  
+  .filtro{
+      height: 40px;
+  }
+  
+  .dashboard{
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 0px;
+  }
+  .tabelarelatorio{
+      height: 500px;
+  }
+  .tabelapartes{
+      height: 600px;
+  }
+  
+  .btnlogin{
+   color: #fff;
+   background-color: #007390;
+   border-color: #007390;
+  }
+  
+  /* Footer */
+  
+  footer {
+      background: url(./background-rodape.png) no-repeat;
+      background-size: 100% 100%;
+      bottom: 0px;
+      width: 102%;
+      padding: 0.1% 0;
+      z-index: 1;
+      margin-top: 20px;	
+  }
+  .footer {
+      position: fixed;
+      bottom:0;
+      left:0;
+  }
+  
+  footer .reserved {
+      white-space: nowrap;
+  }
+  
+  footer p {
+      color: #fff;
+      font-size: 13px;
+      margin-top: 10px;
+  }
+  
+  footer img {
+      width: 40px;
+      height: 57px;
+  }
+  
+  /* Imagen Carregando */
+  .carregando .centro {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 200px;
+      height: 200px;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      background: url(https://cdn.dribbble.com/users/15774/screenshots/1759511/spinner.gif) no-repeat center;
+  }
