@@ -69,12 +69,10 @@ require( ["js/qlik"], function ( qlik ) {
 	
 	app.getObject('CurrentSelections','CurrentSelections');
     
-    //Objetos filtros Sistema | Instância
-    
-    
-    //Objetos Comarcas
-	
-	
+	$('.nav-tabs li a').click(function(){
+		console.log('clicou:');
+		qlik.resize();
+	});
 
 	//create cubes and lists -- inserted here --
 } );
